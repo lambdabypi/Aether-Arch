@@ -1,0 +1,13 @@
+{
+	"mcpServers": {
+		"aether-arch": {
+			"command": "node",
+			"args": [
+				"D:\\aether-arch_-ai-architecture-co-pilot\\bridge.cjs"
+			],
+			"env": {
+				"AETHER_PORT": "3001"
+			}
+		}
+	}
+}

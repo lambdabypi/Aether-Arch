@@ -1,0 +1,6 @@
+
+{
+  "name": "Aether-Arch: AI Architecture Co-pilot",
+  "description": "An advanced engineering co-pilot for proactive architectural debt identification, refactoring generation, and SOC2 compliance verification.",
+  "requestFramePermissions": []
+}
