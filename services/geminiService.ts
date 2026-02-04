@@ -127,7 +127,7 @@ export const TOOLS: MCPTool[] = [
 export const executeMCPTool = async (toolName: string, files: { name: string, content: string }[]): Promise<AnalysisResults> => {
   const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
   const fileContext = files.map(f => `File: ${f.name}\nContent:\n${f.content}`).join('\n\n');
-  
+
   const prompt = `
     ACTION: Executing MCP Tool: ${toolName}
     CONTEXT:
